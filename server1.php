@@ -7,7 +7,7 @@
 
     if($_POST['action'] == "approve")
     {
-        $url = 'https://api.minepi.com/v2/payments/'.$_POST['paymentId'].'/approve';
+        $url = 'https://seashell-app-c6bxt.ondigitalocean.app/'.$_POST['paymentId'].'/approve';
         $data = array();
     }else if($_POST['action'] == "complete")
     {
